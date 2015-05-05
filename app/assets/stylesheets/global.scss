@@ -24,6 +24,10 @@ html, body {
   padding: 15px 0;
   min-height: 76%;
   position: relative;
+
+  #advertise {
+    margin-bottom: 50px;
+  }
 }
 
 #theme-footer {
@@ -35,4 +39,26 @@ html, body {
     background-color: $dark-gray;
     color: $white;
   }
+}
+
+
+.navbar-default {
+  background-color: $dark-gray;
+  border-color: $dark-gray;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: $light-gray;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: $white;
+}
+
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:focus, 
+.navbar-default .navbar-nav > .active > a:hover {
+  background-color: $dark-gray;
+  color: $white;
 }
