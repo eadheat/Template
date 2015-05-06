@@ -2,26 +2,25 @@
 
 html, body {
   height: 100%;
+  background-color: $dark;
 }
 
 #theme-header {
-  min-height: 14%;
-
   #top-header {
     padding: 20px 0;
     background-color: $white;
-    height: 100%;
   }  
-  #second-header {
+  #header-menu {
     background-color: $dark-gray;
     color: $white;
   }
 }
 
 #wrap {
-  padding: 15px 0;
+  padding: 20px 0;
   min-height: 76%;
   position: relative;
+  background-color: $white;
 
   #advertise {
     margin-bottom: 50px;
@@ -29,13 +28,12 @@ html, body {
 }
 
 #theme-footer {
-  height: 10%;
-
   #footer {
+    text-align: center;
     height: 100%;
     padding: 15px 0;
-    background-color: $dark-gray;
-    color: $white;
+    background-color: $light-green;
+    color: $soft-dark;
   }
 }
 
@@ -63,4 +61,40 @@ html, body {
 
 .navbar {
   margin-bottom: 0;
+}
+
+.navbar-default .navbar-nav>.open>a, 
+.navbar-default .navbar-nav>.open>a:focus, 
+.navbar-default .navbar-nav>.open>a:hover {
+  color: $white;
+  background-color: $dark-gray;
+}
+
+.dropdown-menu>li>a:focus, 
+.dropdown-menu>li>a:hover {
+  color: $white;
+  background-color: $light-gray;
+}
+
+.dropdown-menu>li>a {
+  color: $light-gray;
+}
+
+.dropdown-menu {
+  background-color: $dark-gray;
+  border-color: $light-gray;
+}
+
+.dropdown-menu .divider {
+  background-color: $light-gray;
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
 }

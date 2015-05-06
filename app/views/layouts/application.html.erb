@@ -8,14 +8,17 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
-<body class="container-fluid">
+<body class="container">
   <div id="theme-header">
     <%= render "shared/header" %>
+    <%= render "shared/menu" %>
   </div>
 
   <div id="wrap">
-    <%= render "shared/advertise" %>
-    <%= yield %>
+    <div class="col-sm-12">
+      <%= render "shared/advertise" %>
+      <%= yield %>
+    </div>
   </div>
   
   <div id="theme-footer">
