@@ -21,16 +21,11 @@ html, body {
   min-height: 76%;
   position: relative;
   background-color: $white;
-
-  #advertise {
-    margin-bottom: 50px;
-  }
 }
 
 #theme-footer {
   #footer {
     text-align: center;
-    height: 100%;
     padding: 15px 0;
     background-color: $light-green;
     color: $soft-dark;
@@ -61,6 +56,7 @@ html, body {
 
 .navbar {
   margin-bottom: 0;
+  font-weight: bold;
 }
 
 .navbar-default .navbar-nav>.open>a, 
@@ -97,4 +93,8 @@ html, body {
 
 .navbar .navbar-collapse {
   text-align: center;
+}
+
+.text-light-green {
+  color: $dark-green;
 }

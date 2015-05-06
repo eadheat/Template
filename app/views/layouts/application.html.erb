@@ -8,20 +8,22 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
-<body class="container">
-  <div id="theme-header">
-    <%= render "shared/header" %>
-    <%= render "shared/menu" %>
-  </div>
+<body>
+  <div class="container">
+    <div id="theme-header">
+      <%= render "shared/header" %>
+      <%= render "shared/menu" %>
+    </div>
 
-  <div id="wrap">
-    <div class="col-sm-12">
-      <%= render "shared/advertise" %>
-      <%= yield %>
+    <div id="wrap" class="clearfix">
+      <div class="col-sm-12">
+        <%= render "shared/advertise" %>
+        <%= yield %>
+      </div>
     </div>
   </div>
   
-  <div id="theme-footer">
+  <div id="theme-footer" class="container">
     <%= render "shared/footer" %>
   </div>
 </body>
