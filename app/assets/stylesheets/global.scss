@@ -5,9 +5,12 @@ html, body {
 }
 
 #theme-header {
+  min-height: 14%;
+
   #top-header {
     padding: 20px 0;
     background-color: $white;
+    height: 100%;
   }  
   #second-header {
     background-color: $dark-gray;
@@ -56,4 +59,8 @@ html, body {
 .navbar-default .navbar-nav > .active > a:hover {
   background-color: $dark-gray;
   color: $white;
+}
+
+.navbar {
+  margin-bottom: 0;
 }
